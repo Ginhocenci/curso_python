@@ -12,9 +12,6 @@ indice = 0
 while True:
     print('Selecione uma opção')
     opcao = input('[i]nserir [a]pagar [l]istar: ')
-    if len(opcao) > 1:
-        print('Digite apenas letra.')
-        continue
 
     if opcao == 'i':
         lista.append(input('Valor: '))
