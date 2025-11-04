@@ -15,6 +15,4 @@ lista = [
     for x in range(3)
 ]
 
-
-
 print(lista)
