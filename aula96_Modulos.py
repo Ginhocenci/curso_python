@@ -36,7 +36,7 @@ print(pf)
 # má prática - from nome_modulo import *
 # Vantagens: importa tudo de um módulo
 # Desvantagens: importa tudo de um módulo
-# from sys import exit, platform
+from sys import exit, platform
 
-# print(platform)
-# exit()
+print(platform)
+exit()
